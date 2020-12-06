@@ -11,6 +11,6 @@ Give bot appropriate permissions (read messages, write messages etc.)
 
 Add you discord bot token at ``client.run`` in pubgDiscordbot.py script
 
-Run the scrip and type ``!last`` in a text channel to test 
+Run the script and type ``!last`` in a text channel to test 
 
 *Note: Users name in discord MUST be exactly as it is in game name(IGN). Change discord nickname to match IGN.*
