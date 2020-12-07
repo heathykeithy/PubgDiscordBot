@@ -69,7 +69,10 @@ def lmInfo():
         
     if mapName == "Desert_Main":
         mapName = "Miramar"    
-
+    
+    if mapName == "DihorOtok_Main":
+        mapName = "Vikendi"
+        
     gameTime = lastMatch['data']['attributes']['duration']
 
 def recentMatch():
