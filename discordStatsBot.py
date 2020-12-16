@@ -73,6 +73,15 @@ def lmInfo():
     if mapName == "DihorOtok_Main":
         mapName = "Vikendi"
         
+    if mapName == "Heaven_Main":
+        mapName = "Haven"   
+
+    if mapName == "Range_Main":
+        mapName = "Camp Jackal"
+
+    if mapName == "Erangel_Main":
+        mapName = "Classic Erangel"  
+        
     gameTime = lastMatch['data']['attributes']['duration']
 
 def recentMatch():
