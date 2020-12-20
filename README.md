@@ -6,6 +6,8 @@ Bot in python that retrieves the last Pubg match of the user and displays some b
 
 From PugbDiscordBot directory run
  ``pip install -r requirements.txt``
+ 
+ *note: using python 3.8.0*
 
 Create a Pubg developer account here ``https://developer.pubg.com/``
  
@@ -17,7 +19,7 @@ Give bot appropriate permissions (read messages, write messages etc.)
 Add you discord bot token at ``client.run`` in pubgDiscordbot.py script
 ## Run
 
-``python PubgDiscordBot.py``
+``python discordStatsBot.py``
 
 ## Usage
 In your Discord server type ``!last`` in a text channel to test 
